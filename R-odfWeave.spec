@@ -1,14 +1,16 @@
 %global packname  odfWeave
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          0.7.17
+Version:          0.8.2
 Release:          1
 Summary:          Sweave processing of Open Document Format (ODF) files
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/odfWeave_0.8.2.tar.gz
 Requires:         R-lattice R-XML 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-XML
 
