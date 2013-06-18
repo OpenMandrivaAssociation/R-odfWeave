@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          0.8.2
-Release:          1
+Release:          2
 Summary:          Sweave processing of Open Document Format (ODF) files
 Group:            Sciences/Mathematics
 License:          GPL-2
