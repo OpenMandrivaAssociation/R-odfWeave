@@ -9,7 +9,7 @@ Release:          2
 Summary:          Sweave processing of Open Document Format (ODF) files
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/odfWeave_0.8.2.tar.gz
 Requires:         R-lattice R-XML 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-XML
